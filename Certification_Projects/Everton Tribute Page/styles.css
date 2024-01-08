@@ -1,0 +1,115 @@
+body {
+  background-color: #003399;
+  color: #ffffff;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px;
+  padding-top: 30px;
+  font-family: sans-serif, arial;
+}
+h1::before, h1::after {
+content: "";
+background-image: url('badge.svg');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: -400px;
+bottom: 0px;
+width: 15%; 
+margin: auto 2%;
+}
+h1::before {
+left: 0;
+}
+h1::after {
+right: 0;
+}
+#motto {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+#img-div {
+  text-align: center;
+  padding: 10px;
+  background: white;
+  color: #003399;
+  margin: 15px 40vh;
+}
+#image {
+  width: 99%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+figcaption {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 18px;
+}
+section {
+  margin: 20px auto;
+}
+legend {
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  padding: 20px;
+  margin: 20px 40vh;
+  text-align: center;
+  font-size: 2rem;
+}
+#learn {
+  margin: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+#tribute-info {
+  display: block;; 
+  align-items: left;
+  margin: 0 40vh;
+}
+
+ol {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #003399;
+}
+
+li {
+  margin: 15px;
+}
+
+span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+#closing-notes {
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  text-align: center;
+  margin: 50px 40vh;
+  padding: 20px;
+}
+footer {
+  margin: 50px 40vh;
+  text-align: center;
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: yellow;
+}
+
+/* Link style when clicked */
+a:active {
+  color: lightgray;
+}

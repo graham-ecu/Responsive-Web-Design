@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mateo Visitation Request Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Mateo Visitation Request Form</h1>
+    <p id="description">Please fill out this form with the required information.</p>
+    <form id="survey-form" method="post" action="https://www.test.com">
+      <fieldset>
+        <label for="name" id="name-label">Name <input class="basic-info" id="name" type="text" required placeholder="Enter your name"/></label>
+        <label for="email" id="email-label">Email <input class="basic-info" id="email" type="email" required placeholder="Enter your email"/></label>
+        <label for="number" id="number-label">Age <input class="basic-info" id="number" type="number" required min="10" max="120" placeholder="Age"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="relation" id="relation-label">What is your relation to Mateo? 
+          <select id="dropdown">
+            <option value="0">--- Select Relation ---</option>
+            <option value="1">Immediate Family</option>
+            <option value="2">Family</option>
+            <option value="3">Family Friend</option>
+            <option value="4">I am a stranger... give me the baby</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Are you willing to change diapers?</legend>
+        <label for="will-change"><input id="will-change" type="radio" name="diaper-change" class="inline" checked value="1"/> Yes</label>
+        <label for="no-change">
+    <input id="no-change" type="radio" name="diaper-change" class="inline" value="2"/>
+    No (<span class="warning-text"><strong>WARNING</strong> - this significantly lowers your chances</span>)
+  </label>
+      </fieldset>
+      <fieldset>
+        <legend>When would you like to visit Mateo? Select all that apply.</legend>
+        <label for="morning"><input id="morning" value="0" type="checkbox"/> Morning</label>
+        <label for="afternoon"><input id="afternoon" value="1" type="checkbox"/> Afternoon</label>
+        <label for="evening"><input id="evening" value="2" type="checkbox"/> Evening</label>
+      </fieldset>
+      <fieldset>
+        <legend>Please include a brief justification for why you deserve to visit Mateo.</legend>
+        <label for="essay"><textarea id="essay" required rows="5" cols="35" maxlength="1000" placeholder="I deserve to see Mateo because..."></textarea></label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="0"/> I accept the <a target="_blank" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>terms and conditions</a>
+      </label>
+      <!-- <input type="submit" id="submit" value="Submit" /> -->
+    </form>
+    <p class="redirect">
+      <a class="submit-link" href='result1.html'>Sub</a><a class="submit-link" href='result2.html'>m</a><a class="submit-link" href='result1.html'>it - Our AI screening system will give you an instant respo</a><a class="submit-link" href='result2.html'>nse</a>
+    </p>
+    <p class="blank">BLANK SPACE</p>
+  </body>
+</html>

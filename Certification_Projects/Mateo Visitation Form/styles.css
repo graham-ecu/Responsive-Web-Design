@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  h1 {
+    width: 60%;
+    padding-top: 30px;
+    margin: auto auto;
+    text-align: center;
+  }
+  p {
+    width: 60%;
+    font-size: 12;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #3b3b4f;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  fieldset:nth-of-type(2) {
+    margin-top: -40px;
+  }
+  #dropdown {
+    margin-top: 40px;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0
+  }
+  input[class="basic-info"],
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  select {
+    text-align: center;
+  }
+  input, select, textarea,
+  .redirect {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  .warning-text {
+    font-size: 0.7em;
+  }
+  a {
+    color: rgb(255, 248, 231);
+    pointer-events: visible;
+  }
+  a.submit-link {
+    color: white;
+    text-decoration: none;
+  }
+  input[type="submit"] {
+    width: 100%;
+    height: 3em;
+    border-color: white;
+    margin-top: 20px;
+  }
+  .redirect {
+    width: 33vw;
+    height: 3dm;
+    border-color: white;
+    font-family: Tahoma;
+  }
+  .blank {
+    color: #1b1b32;
+    padding: 10px;
+  }
+  .result-img {
+    display: block;
+    max-width: 35%;
+    margin: 10px auto;
+}
